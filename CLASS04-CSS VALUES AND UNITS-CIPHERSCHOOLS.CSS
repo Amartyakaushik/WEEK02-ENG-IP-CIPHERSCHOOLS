@@ -1,0 +1,27 @@
+/* This is paragraph styling */
+.p3{
+    color: white;
+    background-color: blue;
+    /* ABSOLUTE UNITS  (Here paragraph  adjustment doesn't occur  W.R.T the resize of windows page)*/
+    /* width: 200px;  */
+    /* RELATIVE UNITS  (Here paragraph  adjustment occurs W.R.T the resize of windows page */ 
+    width: 20vw;
+    margin: 0;   /* Unit not required */
+    line-height: 1.2;  /* Unit not required */
+}
+
+.div1 {
+    transform: scale(1.0);
+    /* transform: rotate(90deg); */
+    width: calc(100%-20px);
+    height: 100vh;
+    background-image: url('/Screenshot\ \(25\).png');
+}
+/* Short hand property */
+h1,
+h2,
+h3,
+h4,
+h5{
+    color: wheat;
+}
